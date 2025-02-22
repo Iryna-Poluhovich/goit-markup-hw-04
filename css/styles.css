@@ -439,6 +439,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     .portfolio-owerlay{
         position: relative;
         overflow: hidden;
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
            }
 
     .owerlay{
@@ -446,6 +447,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 40px 32px;
         color: #f4f4fd;
         position: absolute;
         top: 0;
@@ -459,7 +461,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         padding-right: 32px;
         transform: translateY(100%);
         opacity: 0;
-        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .portfolio-owerlay:hover .owerlay{
         opacity: 1;
